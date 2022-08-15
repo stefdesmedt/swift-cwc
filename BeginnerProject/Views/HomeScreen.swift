@@ -82,6 +82,12 @@ struct HomeScreen: View {
                             label: {
                                 Text("Pizza Menu")
                             })
+                    //MARK: Geomettry
+                        NavigationLink(
+                            destination: GeometryPractice(),
+                            label: {
+                                Text("Geometry Exercise")
+                            })
                     }.navigationBarTitle(Text("App List"))
                     
                 }
