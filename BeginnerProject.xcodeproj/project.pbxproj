@@ -14,6 +14,7 @@
 		1648A4F228A67E32002F587C /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648A4F128A67E32002F587C /* Pizza.swift */; };
 		1648A4F428A67E4B002F587C /* PizzaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648A4F328A67E4B002F587C /* PizzaViewModel.swift */; };
 		1648A4F728A6CA16002F587C /* recipedata.json in Resources */ = {isa = PBXBuildFile; fileRef = 1648A4F628A6CA16002F587C /* recipedata.json */; };
+		1648A58328AA809F002F587C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648A58228AA809F002F587C /* HomeScreen.swift */; };
 		168ED34428A1765200D15F47 /* BeginnerProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ED34328A1765200D15F47 /* BeginnerProjectApp.swift */; };
 		168ED34628A1765200D15F47 /* WarGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ED34528A1765200D15F47 /* WarGameView.swift */; };
 		168ED34828A1765600D15F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168ED34728A1765600D15F47 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		1648A4F128A67E32002F587C /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		1648A4F328A67E4B002F587C /* PizzaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewModel.swift; sourceTree = "<group>"; };
 		1648A4F628A6CA16002F587C /* recipedata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipedata.json; sourceTree = "<group>"; };
+		1648A58228AA809F002F587C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		168ED34028A1765200D15F47 /* BeginnerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeginnerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		168ED34328A1765200D15F47 /* BeginnerProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginnerProjectApp.swift; sourceTree = "<group>"; };
 		168ED34528A1765200D15F47 /* WarGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		1648A4E828A67235002F587C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1648A58228AA809F002F587C /* HomeScreen.swift */,
 				168ED34528A1765200D15F47 /* WarGameView.swift */,
 				168ED35128A3EF0800D15F47 /* SlotGame.swift */,
 				168ED35328A5281C00D15F47 /* CardGeneratorView.swift */,
@@ -209,6 +212,7 @@
 				168ED35828A5AF4E00D15F47 /* LoopyLists.swift in Sources */,
 				1648A4F228A67E32002F587C /* Pizza.swift in Sources */,
 				1648A4F428A67E4B002F587C /* PizzaViewModel.swift in Sources */,
+				1648A58328AA809F002F587C /* HomeScreen.swift in Sources */,
 				168ED35228A3EF0800D15F47 /* SlotGame.swift in Sources */,
 				168ED35428A5281D00D15F47 /* CardGeneratorView.swift in Sources */,
 				168ED35628A5A8D000D15F47 /* LearningLists.swift in Sources */,
