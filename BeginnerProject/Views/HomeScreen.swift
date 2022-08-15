@@ -9,10 +9,8 @@ import SwiftUI
 
 struct HomeScreen: View {
     
-    var differentScreens = ["War Game", "Slot Game", "Card Generator","Loopy List Practice", "Recipe App","Pizza Menu"]
-    
     var body: some View {
-        TabView {
+        TabView (){
             VStack {
                 Text("Coding With Chris Projects")
                     .font(.title)
