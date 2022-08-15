@@ -88,6 +88,12 @@ struct HomeScreen: View {
                             label: {
                                 Text("Geometry Exercise")
                             })
+                        //MARK: Worker Info
+                            NavigationLink(
+                                destination: WorkerInfoView(),
+                                label: {
+                                    Text("Worker Info View")
+                                })
                     }.navigationBarTitle(Text("App List"))
                     
                 }

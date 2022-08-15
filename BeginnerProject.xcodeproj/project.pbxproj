@@ -24,6 +24,13 @@
 		168ED35428A5281D00D15F47 /* CardGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ED35328A5281C00D15F47 /* CardGeneratorView.swift */; };
 		168ED35628A5A8D000D15F47 /* LearningLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ED35528A5A8D000D15F47 /* LearningLists.swift */; };
 		168ED35828A5AF4E00D15F47 /* LoopyLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ED35728A5AF4E00D15F47 /* LoopyLists.swift */; };
+		16B4953B28AADC9600353194 /* WorkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4953A28AADC9600353194 /* WorkerInfoView.swift */; };
+		16B4953D28AADCEF00353194 /* WorkerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4953C28AADCEF00353194 /* WorkerDetailView.swift */; };
+		16B4953F28AADD0000353194 /* WorkerInfoPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4953E28AADD0000353194 /* WorkerInfoPreferenceView.swift */; };
+		16B4954128AADD3D00353194 /* workers.json in Resources */ = {isa = PBXBuildFile; fileRef = 16B4954028AADD3D00353194 /* workers.json */; };
+		16B4954328AADE1300353194 /* Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4954228AADE1300353194 /* Workers.swift */; };
+		16B4954628AADE8D00353194 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4954528AADE8D00353194 /* DataService.swift */; };
+		16B4954828AAE2DF00353194 /* WorkerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4954728AAE2DF00353194 /* WorkerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +52,13 @@
 		168ED35328A5281C00D15F47 /* CardGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGeneratorView.swift; sourceTree = "<group>"; };
 		168ED35528A5A8D000D15F47 /* LearningLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningLists.swift; sourceTree = "<group>"; };
 		168ED35728A5AF4E00D15F47 /* LoopyLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopyLists.swift; sourceTree = "<group>"; };
+		16B4953A28AADC9600353194 /* WorkerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerInfoView.swift; sourceTree = "<group>"; };
+		16B4953C28AADCEF00353194 /* WorkerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerDetailView.swift; sourceTree = "<group>"; };
+		16B4953E28AADD0000353194 /* WorkerInfoPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerInfoPreferenceView.swift; sourceTree = "<group>"; };
+		16B4954028AADD3D00353194 /* workers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = workers.json; sourceTree = "<group>"; };
+		16B4954228AADE1300353194 /* Workers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workers.swift; sourceTree = "<group>"; };
+		16B4954528AADE8D00353194 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		16B4954728AAE2DF00353194 /* WorkerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,7 @@
 			children = (
 				1648A4ED28A672EE002F587C /* RecipeViewModel.swift */,
 				1648A4F328A67E4B002F587C /* PizzaViewModel.swift */,
+				16B4954728AAE2DF00353194 /* WorkerViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -72,6 +87,7 @@
 			children = (
 				1648A4EB28A67279002F587C /* Recipe.swift */,
 				1648A4F128A67E32002F587C /* Pizza.swift */,
+				16B4954228AADE1300353194 /* Workers.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -80,6 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				1648A58228AA809F002F587C /* HomeScreen.swift */,
+				16B4953A28AADC9600353194 /* WorkerInfoView.swift */,
+				16B4953C28AADCEF00353194 /* WorkerDetailView.swift */,
+				16B4953E28AADD0000353194 /* WorkerInfoPreferenceView.swift */,
 				168ED34528A1765200D15F47 /* WarGameView.swift */,
 				168ED35128A3EF0800D15F47 /* SlotGame.swift */,
 				168ED35328A5281C00D15F47 /* CardGeneratorView.swift */,
@@ -96,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				1648A4F628A6CA16002F587C /* recipedata.json */,
+				16B4954028AADD3D00353194 /* workers.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -125,6 +145,7 @@
 				1648A4E628A67226002F587C /* ViewModels */,
 				168ED34728A1765600D15F47 /* Assets.xcassets */,
 				1648A4F528A6C9E3002F587C /* Data */,
+				16B4954428AADE7000353194 /* Services */,
 				168ED34928A1765600D15F47 /* Preview Content */,
 			);
 			path = BeginnerProject;
@@ -136,6 +157,14 @@
 				168ED34A28A1765600D15F47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16B4954428AADE7000353194 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				16B4954528AADE8D00353194 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				168ED34B28A1765600D15F47 /* Preview Assets.xcassets in Resources */,
+				16B4954128AADD3D00353194 /* workers.json in Resources */,
 				1648A4F728A6CA16002F587C /* recipedata.json in Resources */,
 				168ED34828A1765600D15F47 /* Assets.xcassets in Resources */,
 			);
@@ -210,18 +240,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				1648A4EA28A67261002F587C /* FoodListApp.swift in Sources */,
+				16B4953B28AADC9600353194 /* WorkerInfoView.swift in Sources */,
 				1648A4EE28A672EE002F587C /* RecipeViewModel.swift in Sources */,
 				168ED34628A1765200D15F47 /* WarGameView.swift in Sources */,
 				168ED35828A5AF4E00D15F47 /* LoopyLists.swift in Sources */,
 				1648A4F228A67E32002F587C /* Pizza.swift in Sources */,
+				16B4954828AAE2DF00353194 /* WorkerViewModel.swift in Sources */,
+				16B4954628AADE8D00353194 /* DataService.swift in Sources */,
 				1648A4F428A67E4B002F587C /* PizzaViewModel.swift in Sources */,
 				1648A58328AA809F002F587C /* HomeScreen.swift in Sources */,
 				168ED35228A3EF0800D15F47 /* SlotGame.swift in Sources */,
 				168ED35428A5281D00D15F47 /* CardGeneratorView.swift in Sources */,
 				168ED35628A5A8D000D15F47 /* LearningLists.swift in Sources */,
+				16B4953F28AADD0000353194 /* WorkerInfoPreferenceView.swift in Sources */,
 				1648A58928AA8E02002F587C /* GeometryPractice.swift in Sources */,
 				1648A4F028A67DFB002F587C /* PizzaMenu.swift in Sources */,
 				168ED34428A1765200D15F47 /* BeginnerProjectApp.swift in Sources */,
+				16B4954328AADE1300353194 /* Workers.swift in Sources */,
+				16B4953D28AADCEF00353194 /* WorkerDetailView.swift in Sources */,
 				1648A4EC28A67279002F587C /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
