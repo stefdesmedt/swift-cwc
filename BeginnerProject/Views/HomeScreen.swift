@@ -94,6 +94,12 @@ struct HomeScreen: View {
                                 label: {
                                     Text("Worker Info View")
                                 })
+                        //MARK:  Swipe through cards
+                            NavigationLink(
+                                destination: NumberedCardsView(),
+                                label: {
+                                    Text("Card Swiping Animation")
+                                })
                     }.navigationBarTitle(Text("App List"))
                     
                 }
