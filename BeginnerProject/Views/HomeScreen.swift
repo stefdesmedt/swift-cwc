@@ -100,6 +100,7 @@ struct HomeScreen: View {
                                 label: {
                                     Text("Card Swiping Animation")
                                 })
+                      
                     }.navigationBarTitle(Text("App List"))
                     
                 }

@@ -33,6 +33,7 @@
 		16B4954828AAE2DF00353194 /* WorkerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4954728AAE2DF00353194 /* WorkerViewModel.swift */; };
 		16B4954A28ABF23200353194 /* NumberedCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4954928ABF23200353194 /* NumberedCardsView.swift */; };
 		16B4954C28ABF4E000353194 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4954B28ABF4E000353194 /* Color.swift */; };
+		16B4954E28ACE64900353194 /* LearningPickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4954D28ACE64900353194 /* LearningPickersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		16B4954728AAE2DF00353194 /* WorkerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerViewModel.swift; sourceTree = "<group>"; };
 		16B4954928ABF23200353194 /* NumberedCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedCardsView.swift; sourceTree = "<group>"; };
 		16B4954B28ABF4E000353194 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		16B4954D28ACE64900353194 /* LearningPickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPickersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				1648A4EF28A67DFB002F587C /* PizzaMenu.swift */,
 				1648A58828AA8E02002F587C /* GeometryPractice.swift */,
 				16B4954928ABF23200353194 /* NumberedCardsView.swift */,
+				16B4954D28ACE64900353194 /* LearningPickersView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				168ED35828A5AF4E00D15F47 /* LoopyLists.swift in Sources */,
 				1648A4F228A67E32002F587C /* Pizza.swift in Sources */,
 				16B4954828AAE2DF00353194 /* WorkerViewModel.swift in Sources */,
+				16B4954E28ACE64900353194 /* LearningPickersView.swift in Sources */,
 				16B4954628AADE8D00353194 /* DataService.swift in Sources */,
 				1648A4F428A67E4B002F587C /* PizzaViewModel.swift in Sources */,
 				1648A58328AA809F002F587C /* HomeScreen.swift in Sources */,
