@@ -11,9 +11,11 @@ struct RecipeFeatureView: View {
     
     @EnvironmentObject var model:RecipeModel
     @State var isShowingDetails = false
+    @State var tabSelectionIndex = 0
     
     var body: some View {
-        VStack(alignment: .leading) {
+        
+        VStack(alignment: .leading, spacing: 0) {
             
             Text("Featured Recipes")
                 .font(.largeTitle)
@@ -22,7 +24,7 @@ struct RecipeFeatureView: View {
             
             
             GeometryReader { geo in
-                TabView {
+                TabView (selection: $tabSelectionIndex) {
                     ForEach (0..<model.recipes.count){ index in
                         
                         if model.recipes[index].featured {
@@ -46,7 +48,9 @@ struct RecipeFeatureView: View {
                                 
                                 }
                                 
-                            }).sheet(isPresented: $isShowingDetails, content: {
+                            })
+                            .tag(index)
+                            .sheet(isPresented: $isShowingDetails, content: {
                             
                                 RecipeDetailView(recipe: model.recipes[index])
                                 
@@ -60,8 +64,7 @@ struct RecipeFeatureView: View {
                         }
                         
                     }
-                    
-                    
+                   
                 }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
                     .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
             }
@@ -69,16 +72,26 @@ struct RecipeFeatureView: View {
             VStack(alignment: .leading, spacing: 10) {
                 Text("Preparation Time:")
                     .bold()
-                Text("1 hour")
+                Text(model.recipes[tabSelectionIndex].prepTime)
                 Text("Highlights:")
                     .bold()
-                Text("Healthy, Amazing")
+                RecipeHighlightView(highlights: model.recipes[tabSelectionIndex].highlights)
                     .padding(.bottom)
             }.padding(.leading)
             
         }
+        .onAppear(perform: {setFeaturedIndex()})
         
     }
+
+    func setFeaturedIndex () {
+        
+        var index = model.recipes.firstIndex { (recipe) -> Bool in
+            return recipe.featured
+        }
+        tabSelectionIndex = index ?? 0
+    }
+
 }
 
 struct RecipeFeatureView_Previews: PreviewProvider {
