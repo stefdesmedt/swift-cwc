@@ -22,6 +22,13 @@ struct RecipeDetailView: View {
             Image(recipe.image)
                 .resizable()
                 .scaledToFill()
+            
+            Text(recipe.name)
+                .bold()
+                .padding(.vertical, 20)
+                .padding(.leading)
+                .font(.largeTitle)
+                
             VStack (alignment: .leading) {
                 Text("Select your serving size")
                 Picker("", selection: $servingSize) {
@@ -62,7 +69,7 @@ struct RecipeDetailView: View {
                 
             }.padding(10)
                
-        } .navigationBarTitle(recipe.name)
+        }.navigationBarHidden(true)
     }
 }
 
